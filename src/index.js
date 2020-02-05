@@ -26,9 +26,9 @@ const main = async (req, res) => {
     // await task.populate('owner').execPopulate()
     // console.log(task.owner)
 
-    const user = await User.findById(id)
-    await user.populate('tasks').execPopulate()
-    console.log(user.tasks)
+    // const user = await User.findById(id)
+    // await user.populate('tasks').execPopulate()
+    // console.log(user.tasks)
 
 }
 
